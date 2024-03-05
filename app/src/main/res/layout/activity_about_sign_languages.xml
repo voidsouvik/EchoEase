@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".activities.AboutSignLanguages">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Sign Language"
+                android:fontFamily="@font/aileron_bold"
+                android:textColor="@color/white"
+                android:letterSpacing="0.02"
+                android:textSize="19sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_sign1"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/questrial_regular"
+                android:letterSpacing="0.03"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="So, you must now be wondering, what exactly is this sign language?"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aileron_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_sign2"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/questrial_regular"
+                android:letterSpacing="0.03"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Languages that are used in this app"
+                android:fontFamily="@font/aileron_bold"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/a"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/b"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="B"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/c"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="C"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/d"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/e"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="E"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:weightSum="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/f"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="F"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/g"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="G"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/h"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="H"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/i"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="I"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/j"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="J"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:weightSum="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/k"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="K"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/l_1"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="L"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/m"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/n"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="N"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/o"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="O"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:weightSum="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/p"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="P"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/q"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Q"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/r"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/s"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="S"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/t"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="T"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="8dp"
+                    android:weightSum="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/u"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="U"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/v"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="V"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/w_1"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="W"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/x"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="X"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="@android:color/transparent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_two">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/y"
+                                android:padding="6dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Y"
+                                android:fontFamily="@font/aileron_bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="19sp"
+                                android:layout_marginBottom="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
